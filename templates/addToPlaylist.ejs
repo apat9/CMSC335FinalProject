@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Add Song to Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Add Song to Playlist</h1>
+	<p>Enter the song name EXACTLY how you see it on the home page!</p>
+	<form action="/addToPlaylist" method="post">
+		<fieldset>
+			<label><b>Track Name to Add:</b> <input type="text" name="songname"/></label>
+		</fieldset>
+        <br>
+        <input type="reset"/>
+        <input type="submit" value="Submit Song"/>
+    </form>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>

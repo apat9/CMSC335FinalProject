@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Remove From Playlist</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<h1>Remove A Song From Your Playlist</h1>
+	<p>Enter the song name EXACTLY how you see it on the home page!</p>
+    <form action="/removeOne" method="post">
+        <fieldset>
+            <label><b>Track Name to Delete:</b> <input type="text" name="songname"/></label><br>
+            <input type="reset"/>
+            <input type="submit" value="Delete Song"/>
+        </fieldset>
+    </form>
+    <hr>
+    <h1>Remove All Songs From Your Playlist</h1>
+    <form action="/removeAll" method="post">
+        <fieldset>
+            <input type="submit" value="Remove All Songs"/>
+        </fieldset>
+    </form>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Spotify Playlist Builder</title>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Spotify Playlist Builder</h1>
+    <p>Construct your own playlist from the Top 50 Spotify songs!</p>
+    <a href="/addToPlaylist">Build Playlist</a>
+    <p>View your current playlist:</p>
+    <a href="/viewPlaylist">View Current Playlist</a>
+    <p>Delete from your current playlist:</p>
+    <a href="/remove">Remove From Playlist</a>
+    <h2>Top 50 Songs</h2>
+    <div>
+        <%- table %>
+    </div>
+</body>
+
+</html>
